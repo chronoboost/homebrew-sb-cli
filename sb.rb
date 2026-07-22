@@ -1,27 +1,27 @@
 class Sb < Formula
   desc "CLI for skillsbin.com - manage and share Claude skills"
   homepage "https://skillsbin.com"
-  version "2026.4.12"
+  version "2026.7.22"
 
   on_macos do
     on_arm do
-      url "https://github.com/chronoboost/homebrew-sb-cli/releases/download/v2026.4.12/sb_darwin_arm64.tar.gz"
-      sha256 "ecc4c2fbc4b224d194fd2f930fd4edc17352068e18118625209a3dba0de81651"
+      url "https://github.com/chronoboost/homebrew-sb-cli/releases/download/v2026.7.22/sb_darwin_arm64.tar.gz"
+      sha256 "3bf0d4b785ebc675187f05c832937a56aedf2b38f54bb7307a9b4fc26cec81ea"
     end
     on_intel do
-      url "https://github.com/chronoboost/homebrew-sb-cli/releases/download/v2026.4.12/sb_darwin_amd64.tar.gz"
-      sha256 "75b41ee2b41c718dd00665d5aaafc4a8eb85c30dfdd552f31d3e592059ea9bca"
+      url "https://github.com/chronoboost/homebrew-sb-cli/releases/download/v2026.7.22/sb_darwin_amd64.tar.gz"
+      sha256 "7e44fa6e1ccf20bb8d7557c942fb25e8d8192fadc8805fea693d8defb61ce5fe"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chronoboost/homebrew-sb-cli/releases/download/v2026.4.12/sb_linux_arm64.tar.gz"
-      sha256 "1102756e5503fbeb02c263ed22e52465d74a9ca555cf30f7cdee088fcc7281a8"
+      url "https://github.com/chronoboost/homebrew-sb-cli/releases/download/v2026.7.22/sb_linux_arm64.tar.gz"
+      sha256 "d90ba9383ce624178cdbfb773ca0005b4f440ed1f0102f8655fc965b683550cc"
     end
     on_intel do
-      url "https://github.com/chronoboost/homebrew-sb-cli/releases/download/v2026.4.12/sb_linux_amd64.tar.gz"
-      sha256 "8f2fe3e0010fcc14d08b2d271dc896a561934b964593aa0a40d899e35628e5df"
+      url "https://github.com/chronoboost/homebrew-sb-cli/releases/download/v2026.7.22/sb_linux_amd64.tar.gz"
+      sha256 "632232e789c4a272ea66f00b411a4af8a4134ecc357b354017c74f2be4faaee0"
     end
   end
 
